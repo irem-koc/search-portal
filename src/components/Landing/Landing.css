@@ -1,0 +1,19 @@
+.add-btn {
+    background-color: #204080;
+    position: absolute;
+    width: 197.16px;
+    height: 46px;
+    left: 1020px;
+    top: 64px;
+    border-radius: 12px;
+}
+
+.add-btn>a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
