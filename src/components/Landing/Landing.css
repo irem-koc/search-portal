@@ -1,11 +1,25 @@
-.add-btn {
-    background-color: #204080;
-    position: absolute;
-    width: 197.16px;
-    height: 46px;
-    left: 1020px;
-    top: 64px;
-    border-radius: 12px;
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn-section {
+    display: flex;
+    align-self: flex-end;
+
+    .add-btn {
+        border: none;
+        background-color: #204080;
+        width: 197.16px;
+        height: 46px;
+        border-radius: 12px;
+        margin-top: 4rem;
+        margin-right: 4rem;
+
+
+    }
 }
 
 .add-btn>a {
@@ -16,4 +30,129 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+}
+
+.logo-section {
+    display: flex;
+}
+
+.alt-text-logo {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    width: 220px;
+    left: 720px;
+    top: 250.71px;
+    color: #484848;
+}
+
+.find-record {
+    margin-top: 30px;
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    width: 600px;
+    height: 36px;
+
+    /* /Title2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+
+    /* Ink/Darkest */
+
+    color: #090A0A;
+}
+
+.search-btn {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #204080;
+    border-radius: 12px;
+    padding: 11px;
+    height: 46px;
+    border: none;
+}
+
+.find-input {
+    width: 45%;
+
+}
+
+.input-seacrh-btn-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    margin: 18px 9px;
+}
+
+.input-section {
+    border: 2px solid #204080;
+    border-radius: 8px;
+    padding: 9px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+    margin-right: 11px;
+}
+
+.search-input {
+    border: none;
+    background: #FFFFFF;
+    width: 650px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    caret-color: #6B4EFF;
+    /* Ink/Darkest */
+
+    color: #090A0A;
+}
+
+input[type="search"] {
+    margin: 0;
+    padding: 7px;
+    font-size: 14px;
+}
+
+input[type="search"]::placeholder {
+    color: #bbb;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+    border: none;
+    outline: none;
 }
