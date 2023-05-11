@@ -127,7 +127,7 @@
     color: #090A0A;
 }
 
-input[type="search"] {
+input[type="text"] {
     margin: 0;
     padding: 7px;
     font-size: 14px;
@@ -152,7 +152,7 @@ button[type="submit"] {
 
 
 button[type="submit"]:focus,
-input[type="search"]:focus {
+input[type="text"]:focus {
     border: none;
     outline: none;
 }

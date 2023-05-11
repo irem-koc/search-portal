@@ -25,7 +25,7 @@ const Landing = () => {
                     <div className="input-seacrh-btn-group">
                         <form className="input-section">
                             <button type="submit">Search</button>
-                            <input className="search-input" type="search" />
+                            <input className="search-input" type="text" />
                         </form>
                         <button className="search-btn">Search</button>
                     </div>
